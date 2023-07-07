@@ -1,12 +1,12 @@
 import { useEffect, useState, useRef } from "react";
-import ItemScroller from "./ItemScroller";
+import ItemScroller from "./ItemScroller.jsx";
 import { Stack } from "@mui/material";
 import Request from "./Request";
+
 export default function Related({ current, setCurrent }) {
   // const items = useRef([]);
   const [ items, setItems ] = useState([]);
   const [ related, setRelated] = useState([]);
-  const [ itemsRefresh, setItemsRefresh ] = useState(0);
 
   useEffect(() => {
     if (current !== undefined) {

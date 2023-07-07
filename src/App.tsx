@@ -41,7 +41,7 @@ const App = () => {
     axios
       .get(endpoint + "products", config)
       .then((results) => {
-        let data = results.data[0];
+        const data = results.data[0];
         setCurrentItem(data);
         // console.log('CURRENT ITEM SET', results.data[0], currentItem)
         setAllItems(results.data);

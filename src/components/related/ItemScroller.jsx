@@ -1,8 +1,8 @@
 import { Stack, Typography, Button } from '@mui/material';
-import Item from "./Item.tsx";
+import Item from "./Item.jsx";
 import { useEffect, useState } from 'react';
-import Slider from './Slider.tsx';
-import OutfitAdd from './outfitAdd.tsx';
+import Slider from './Slider.jsx';
+import OutfitAdd from './outfitAdd.jsx';
 const ItemScroller = ({ setCurrent, current, title, items, type }) => {
 
   const [ outfit, setOutfit ] = useState([]);

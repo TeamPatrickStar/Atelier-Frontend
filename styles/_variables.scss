@@ -3,3 +3,17 @@ $color-border: black;
 $color-1: #FBFFF1;
 $color-2: #124559;
 $color-3: #01161E;
+$color-4: #912F56;
+
+
+$dark-1: #18020C;
+$dark-2: #BBCBCB;
+$dark-3: #E5FFDE;
+$dark-4: #255957;
+
+#dark {
+  background-color: $dark-1;
+}
+#light {
+  background-color: $color-1;
+}

@@ -1,5 +1,4 @@
 import { Card, IconButton, Stack, Modal, Typography} from "@mui/material";
-import Grid from '@mui/material/Unstable_Grid2';
 import { useState, useEffect } from 'react';
 import Request from "./Request";
 import { Clear, StarBorder } from "@mui/icons-material";
@@ -81,7 +80,7 @@ function Action1({ setModal, current, item }) {
 function Action2({ item, outfit, setOutfit }) {
 
   const handleClick = () => {
-    let temp: object[] = [];
+    let temp = [];
     temp = temp.concat(outfit);
     for (let i = 0; i < temp.length; i++) {
       if (temp[i].id == item.id) {

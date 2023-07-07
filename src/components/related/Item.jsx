@@ -31,7 +31,7 @@ function Item( { setOutfit, outfit, setCurrent, type, current, item } ) {
   };
 
   return (
-    <Card onClick={cardClick} sx={{padding: '10px',margin:'5px', minWidth:'calc(20% - 30px)', maxWidth:'calc(20% - 30px)'}}>
+    <Card onClick={cardClick} id='card'>
       <div className='item-card'>
       <div style={{position: 'relative', width:'100%', height: '150px'}}>
         <img src={img} style={{width: '100%', height: '150px', objectFit: 'cover'}}/>

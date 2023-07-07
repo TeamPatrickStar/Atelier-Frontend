@@ -3,7 +3,7 @@ import { AddCircle } from '@mui/icons-material';
 function OutfitAdd({ setOutfit, outfit, current}) {
 
   const handleClick = () => {
-    let temp: object[] = [];
+    let temp = [];
     temp = temp.concat(outfit);
     temp.push(current);
     for (let i = 0; i < outfit.length; i++) {
